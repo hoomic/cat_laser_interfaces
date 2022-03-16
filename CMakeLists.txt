@@ -27,6 +27,7 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Template.msg"
   "msg/PanTilt.msg"
+  "msg/FloorMapMsg.msg"
   "srv/LaserCoordinates.srv"
   DEPENDENCIES sensor_msgs
 )
